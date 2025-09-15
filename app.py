@@ -13,10 +13,9 @@ import os
 def connect_to_db():
     return mysql.connector.connect(
         host="localhost",
-        user="remoteuser",
-        password="remote123",
+        user="root",
+        password="rajnandhu04",
         database="expense_tracker",
-        ssl_disabled=True
     )
 
 # User table creation
